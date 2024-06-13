@@ -11,6 +11,8 @@
   "dependencies": {
     "@ai-sdk/react": "^0.0.1",
     "ai": "^3.1.33",
+    "axios": "^1.7.2",
+    "nanoid": "^5.0.7",
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18"
