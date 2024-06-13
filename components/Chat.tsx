@@ -18,6 +18,7 @@ export function Chat({ id, initialMessages, className }: ChatProps) {
 		id,
 		body: {
 			id,
+			userId: "asd",
 		},
 		onFinish() {
 			if (!path.includes("chat")) {

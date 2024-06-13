@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: ChatPageProps): Promise<Metad
 	const chat = (await getChat(params.id, userId)) || "Chat";
 	console.log(chat);
 	return {
-		title: chat?.title?.toString()?.slice(0, 50) ?? "Chat",
+		title: chat?.title?.toString()?.slice(0, 50),
 	};
 }
 
